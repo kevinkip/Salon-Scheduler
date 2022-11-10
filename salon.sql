@@ -204,6 +204,11 @@ INSERT INTO public.appointments VALUES (44, '', 51, 2);
 INSERT INTO public.appointments VALUES (45, '4:50 pm', 52, 3);
 INSERT INTO public.appointments VALUES (46, '8:00 am', 2, 2);
 INSERT INTO public.appointments VALUES (47, 'Noon', 2, 3);
+INSERT INTO public.appointments VALUES (72, '6 pm', 73, 2);
+INSERT INTO public.appointments VALUES (79, '3pm', 1, 2);
+INSERT INTO public.appointments VALUES (80, '5pm', 79, 2);
+INSERT INTO public.appointments VALUES (91, '9AM', 1, 1);
+INSERT INTO public.appointments VALUES (92, '2:45 pm', 90, 1);
 
 
 --
@@ -219,6 +224,9 @@ INSERT INTO public.customers VALUES (14, 'Salmon', '402-235-2352');
 INSERT INTO public.customers VALUES (27, 'Charlie', '234-124-2352');
 INSERT INTO public.customers VALUES (51, 'Graham', '123-123-1234');
 INSERT INTO public.customers VALUES (52, 'Eevee', '987-987-9876');
+INSERT INTO public.customers VALUES (73, '1', '234-234-2342');
+INSERT INTO public.customers VALUES (79, 'Nivek', '515-432-9084');
+INSERT INTO public.customers VALUES (90, 'Esmerelda', '245-653-9780');
 
 
 --
@@ -234,14 +242,14 @@ INSERT INTO public.services VALUES (3, 'nails');
 -- Name: appointments_appointment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 47, true);
+SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 98, true);
 
 
 --
 -- Name: customers_customer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.customers_customer_id_seq', 52, true);
+SELECT pg_catalog.setval('public.customers_customer_id_seq', 95, true);
 
 
 --
